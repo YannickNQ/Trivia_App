@@ -1,11 +1,5 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI
 import uvicorn
-import numpy as np
-from io import BytesIO
-from PIL import Image
-import tensorflow as tf
-from tensorflow import keras
-import requests
 from fastapi.middleware.cors import CORSMiddleware
 import pickle
 import pandas as pd
